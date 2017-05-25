@@ -1,0 +1,3 @@
+var opts = 
+
+$('#gallery').gallery();

@@ -1,0 +1,16 @@
+.gallery{
+	position: relative;
+}
+.gallery:focus{
+	outline:0;
+}
+.gallery .gallery-item{
+	position: absolute;
+	opacity: 0;
+	transition: opacity 0.5s linear, filter 0.5s linear;
+	
+}
+.gallery .gallery-item.current{
+	opacity:1;
+	filter: blur(0);
+}
